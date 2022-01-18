@@ -21,10 +21,24 @@ export default function Navbar() {
     return (
 
         <div className={`navbar ${navSlide && "nav-black"}`}>
+
             <div className="nav-container">
-                <img src="./images/netflix-logo.png" className="nav-logo"/>
-                <img src="./images/netflix-avatar.png" className="nav-avatar"/>
-              
+
+                <div className="nav-left">
+                    <img src="./images/netflix-logo.png" className="nav-logo"/>
+                   <ul>
+                       <li><a href="#">Home</a></li>
+                       <li><a href="#">Series</a></li>
+                       <li><a href="#">Movies</a></li>
+                       <li><a href="#">Public News</a></li>
+                       <li><a href="#">My List</a></li>
+                   </ul>
+
+                </div>
+                <div className="nav-right">
+                    <i class="fas fa-bell"></i>
+                    <img src="./images/netflix-avatar.png" className="nav-avatar"/>
+                </div>
             </div>
         </div>
         
