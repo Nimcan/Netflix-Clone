@@ -1,7 +1,10 @@
 import React from 'react'
+import SingUp from '../SingUp/SingUp'
 import './LoginPage.css'
 
 function LoginPage() {
+
+    const user = null;
     return (
         <div className='loginPageContainer'>
             <div className='loginScreen'>
@@ -19,7 +22,9 @@ function LoginPage() {
             </div>
 
             <div className='loginPageBody'>
-                    <>
+             
+                <SingUp/>
+                    {/* <>
                         <h1>Unlimited movies, TV shows, and more.</h1>
                         <h2>Watch anywhere. Cancel anytime.</h2>
 
@@ -36,7 +41,7 @@ function LoginPage() {
                             </div>
 
                         </form>
-                    </>
+                    </> */}
             </div>
         </div>
     )

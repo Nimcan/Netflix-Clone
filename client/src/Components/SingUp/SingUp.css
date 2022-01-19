@@ -1,0 +1,83 @@
+
+
+.Singup-div{
+    background: rgba(0, 0, 0, 0.75);
+    max-width: 350px;
+    padding: 20px;
+}
+
+.singup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.singup-small-container{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0px 10px;
+
+}
+
+.singup-container h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.singup-container input{
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    /* background: grey; */
+    /* color: white; */
+    width: 100%;
+}
+
+.singup-container button{
+    padding: 10px;
+    border: none;
+    background: red;
+    color: white;
+    margin-top: 15px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.pass-remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.pass-remember-small{
+    /* display: flex; */
+}
+
+.pass-remember-small input{
+    padding: 5px;
+}
+
+.pass-remember-small label{
+    font-size: 10px;
+    color: grey;
+}
+
+.pass-remember a{
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+.pass-remember a:hover{
+    text-decoration: underline;
+}
+
+
+

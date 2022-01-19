@@ -10,12 +10,13 @@
 
 .loginPageBody{
     position: absolute;
-    top: 30%;
+    top: 10%;
+    left: 50%;
     margin-left: auto;
     /* margin-right: auto; */
     text-align: center;
     /* right: 50%; */
-    transform: translateX(50%);
+    transform: translate(-50%);
     color: white;
     padding: 20px;
     z-index: 1;
@@ -31,6 +32,7 @@
     font-size: 1.425rem;
     font-weight: 400;
 }
+
 
 .loginScreenGradient{
     width: 100%;
@@ -89,17 +91,20 @@
 
 .loginPageInput{
     display: flex;
+    flex-direction: column;
     max-width: 950px;
 }
 
-.loginPageInput h3{
-    font-size: 1.2rem;
-    font-weight: 400;
+h3{
+    /* font-size: 0.8rem; */
+    font-size: 16px;
+    font-weight: 300;
     margin-top: 20px;
 
 }
 .input-div{
     display: flex;
+    flex-direction: row;
 
 }
 

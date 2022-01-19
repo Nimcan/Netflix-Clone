@@ -11,6 +11,10 @@ function Home() {
             {/* <Navbar/> */}
 
             {/* Banner Components */}
+
+            <LoginPage/>
+
+            
             {/* <Banner/>
 
             <Row/>
@@ -18,7 +22,7 @@ function Home() {
             <Row/>
             <Row/> */}
 
-            <LoginPage/>
+            
 
         </div>
     )
